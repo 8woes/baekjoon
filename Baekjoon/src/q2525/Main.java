@@ -13,7 +13,7 @@ public class Main {
 		int D = B + C;
 		if (D >= 60) {
 			int d = D / 60;
-			D -= (60 * d);
+			D = D - (60 * d);
 			A += d;
 			if (A >= 24) {
 				int a = A / 24;
